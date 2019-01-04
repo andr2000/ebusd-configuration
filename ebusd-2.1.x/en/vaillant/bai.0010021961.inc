@@ -122,10 +122,7 @@ r;wi,,HoursTillService,d.84 Hours till service,,,,"AC00",,,hoursum2,,,Hours left
 r;wi,,AntiCondensValue,d.85 Minimal power to avoid condensation,,,,"EC00",,,UCH,,kW / %,Minimal power to avoid condensation 
 r;wi,,SpecialAdj,d.88 SpecialAdj,,,,"7604",,,UCH,,,"switching on threshold for recognition of water tapping0 = 1,5 l/min and no delay, 1 = 3,7 l/min and 2s delay"
 r;ws,,DSNOffset,d.93 Hardware ID,,,,"3004",,,UCH,,,Hardware ID (DSN),,,
-r;wi,,ClearErrorHistory,d.94 Delete error history,,,,"0000",,,yesno,,,Delete error history
-r,,SoftwareVersion,d.95 Software Version,,,,"0000",,,HEX:8,,,Software Version
 r;wi,,SetFactoryValues,d.96 Reset to defaults,,,,"6804",,,yesno,,,Reset to factory defaults,,,
-r,,CodingResistor,d.98 SD_CodingResistor,,,,"9200",,,HEX:3,,,Therme identification resistance
 # ##### Wartungsdaten #####,,,,,,,,,,,,,,,,
 r,,TempGradientFailure,Temperature gradient failures,,,,"1100",,,temp0,,,Number of boiler shutdown due to high gradient (S.54),,,
 r,,TempDiffBlock,TempDiffBlock,,,,"1200",,,temp0,,,Number of modulationblocking of the boilers cause of to high/incorrect difference of flow/return temperatures,,,
