@@ -91,7 +91,6 @@ r,,SerialNumber,SerialNumber,,,,"3F04",,,HEX:8,,,Serial number AI,,,
 # ##### Diagnose Ebene 2 #####,,,,,,,,,,,,,,,,
 r;wi,,ReturnRegulation,d.17 Return control,,,,"B300",,,onoff,,,Activation of the return control,,,
 r;wi,,HcPumpMode,d.18 CH pump mode,,,,"B700",,,UCH,0=post run;1=permanent;2=winter,,Pump mode for central heating,,,
-r;wi,,SecondPumpMode,d.19 Mode of 2 speed pump,,,,"0B04",,,UCH,,,"Operating mode of the two-stage heating pump0: burner mode = 2, pre/post-run = 1; 1: CH + post-run = 1, DHW = 2, 2: as 1 but rotation speed in CH is dependent of heating part load, (defaultsetting)3: always stage 2"
 r;wi,,HwcTempMax,d.20 Maximum DHW temperature,,,,"D900",,,temp,,,Max. Speichersollwert. Limits the maximum adjustment range of the potentiometer (right stop).,,,
 r;wi,,OptionalRelais,d.26 Optional relay,,,,"B800",,,UCH,1=circulationpump;2=extheatingpump;3=storagechargingpump;4=fluegasflapextractorhood;5=externalgasvalve;6=externalerrormessage;7=solarpump;8=remotecontrol,,Function of optional relay
 r;wi,,AccessoriesOne,d.27 Accessory relay 1,,,,"B900",,,UCH,1=circulationpump;2=extheatingpump;3=storagechargingpump;4=fluegasflapextractorhood;5=externalgasvalve;6=externalerrormessage;7=solarpump;8=remotecontrol,,Function of accessory relay 1,,,
@@ -113,7 +112,7 @@ r;wi,,WarmstartOffset,d.73 Warmstart offset,,,,"1004",,,temp,,,Offset for warm s
 r;wi,,StorageLoadTimeMax,d.75 Maximum storage time,,,,"6600",,,minutes0,,,Maximum water storing time for storage without own controls,,,
 r,,CodingResistor,d.76 SD_CodingResistor_DK,,,,"9200",,,HEX:3,,,boiler identification resistor
 r;wi,,PartloadHwcKW,d.77 hot water partload,,,,"0804",,,power,,,storage part load (storage charging capacity limit)
-r;wi,,FlowsetHwcMax,d.78 Max value flow temp storage,,,,"0F04",,,temp,,,storage charging temperature limit (target flow temperature in storage mode)
+r;wi,,FlowsetHwcMax,d.78 Max value flow temp storage,,,,"A600",,,temp,,,storage charging temperature limit (target flow temperature in storage mode)
 r,,HcHours,d.80 Hz. Hours in CH mode,,,,"2800",,,hoursum2,,,Hours of operation in heating mode,,,
 r,,HwcHours,d.81 Hours in DHW mode,,,,"2200",,,hoursum2,,,Hours of DHW operation,,,
 r,,HcStarts,d.82 CH mode starts,,,,"2900",,,UIN,-100,,Number of CH mode starts,,,
