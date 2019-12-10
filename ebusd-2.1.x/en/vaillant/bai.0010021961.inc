@@ -90,7 +90,7 @@ r,,ProductionByte,ProductionByte,,,,"3E04",,,UCH,,,,,,
 r,,SerialNumber,SerialNumber,,,,"3F04",,,HEX:8,,,Serial number AI,,,
 # ##### Diagnose Ebene 2 #####,,,,,,,,,,,,,,,,
 r;wi,,ReturnRegulation,d.17 Return control,,,,"B300",,,onoff,,,Activation of the return control,,,
-r;wi,,HcPumpMode,d.18 CH pump mode,,,,"B700",,,UCH,0=post run;1=permanent;2=winter,,Pump mode for central heating,,,
+r;wi,,HcPumpMode,d.18 CH pump mode,,,,"B700",,,UCH,1=permanent;3=eco,,Pump mode for central heating,,,
 r;wi,,HwcTempMax,d.20 Maximum DHW temperature,,,,"D900",,,temp,,,Max. Speichersollwert. Limits the maximum adjustment range of the potentiometer (right stop).,,,
 r;wi,,OptionalRelais,d.26 Optional relay,,,,"B800",,,UCH,1=circulationpump;2=extheatingpump;3=storagechargingpump;4=fluegasflapextractorhood;5=externalgasvalve;6=externalerrormessage;7=solarpump;8=remotecontrol,,Function of optional relay
 r;wi,,AccessoriesOne,d.27 Accessory relay 1,,,,"B900",,,UCH,1=circulationpump;2=extheatingpump;3=storagechargingpump;4=fluegasflapextractorhood;5=externalgasvalve;6=externalerrormessage;7=solarpump;8=remotecontrol,,Function of accessory relay 1,,,

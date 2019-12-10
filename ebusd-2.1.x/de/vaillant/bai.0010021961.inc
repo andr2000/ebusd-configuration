@@ -90,7 +90,7 @@ r,,ProductionByte,ProductionByte,,,,"3E04",,,UCH,,,,,,
 r,,SerialNumber,SerialNumber,,,,"3F04",,,HEX:8,,,Seriennummer AI,,,
 # ##### Diagnose Ebene 2 #####,,,,,,,,,,,,,,,,
 r;wi,,ReturnRegulation,d.17 Rücklaufregelung,,,,"B300",,,onoff,,,Aktivierung der Rücklaufregelung,,,
-r;wi,,HcPumpMode,d.18 Pumpenbetriebsart,,,,"B700",,,UCH,0=post run;1=permanent;2=winter,,Pumpenbetriebsart für den Heizbetrieb,,,
+r;wi,,HcPumpMode,d.18 Pumpenbetriebsart,,,,"B700",,,UCH,1=permanent;3=eco,,Pumpenbetriebsart für den Heizbetrieb,,,
 r;wi,,HwcTempMax,d.20 Max. WW Temperatur,,,,"D900",,,temp,,,Max. Speichersollwert. Begrenzt den max. Einstellbereich des Potentiometers (Rechtsanschlag).,,,
 r;wi,,OptionalRelais,d.26 OptionalRelais,,,,"B800",,,UCH,1=circulationpump;2=extheatingpump;3=storagechargingpump;4=fluegasflapextractorhood;5=externalgasvalve;6=externalerrormessage;7=solarpump;8=remotecontrol,,Option relais function
 r;wi,,AccessoriesOne,d.27 Zubehörrelais 1,,,,"B900",,,UCH,1=circulationpump;2=extheatingpump;3=storagechargingpump;4=fluegasflapextractorhood;5=externalgasvalve;6=externalerrormessage;7=solarpump;8=remotecontrol,,Funktion des Zubehörrelais 1,,,
